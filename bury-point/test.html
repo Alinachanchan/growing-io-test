@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>埋点</title>
+</head>
+<body>
+ <button event='[{ "name":"event1","trigger": "click","sque": -1},{"name": "event2","trigger": "click","sque": 0}]'>event1 & event2-A</button>
+ <button event='[{ "name": "event2", "trigger" : "click", "sque": 1}]'>event2-B</button>
+ <button event='[{ "name": "event2","trigger": "click","sque": -1}]'>event2-C</button>
+ <script src="bury-point.js"></script>
+</body>
+</html>
